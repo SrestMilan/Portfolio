@@ -2,7 +2,7 @@ import React from "react";
 
 const Data = () => {
   return (
-    <div className="home_data">
+    <div className="home__data">
       <h1 className="home__title">
         Srest Milan
         <svg
