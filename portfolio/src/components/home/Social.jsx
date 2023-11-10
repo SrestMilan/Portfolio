@@ -7,8 +7,17 @@ const Social = () => {
         href="https://github.com/SrestMilan"
         className="home__social-icon"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="uil uil-github"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/milan-shrestha-259630207/"
+        className="home__social-icon"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <i class="uil uil-linkedin"></i>
       </a>
     </div>
   );
