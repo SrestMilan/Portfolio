@@ -28,8 +28,8 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#service" className="nav__link">
-                <i className="uil uil-briefcase-alt nav__icon"></i>Service
+              <a href="#services" className="nav__link">
+                <i className="uil uil-briefcase-alt nav__icon"></i>Services
               </a>
             </li>
 
@@ -45,12 +45,12 @@ const Header = () => {
             </li>
           </ul>
           <i
-            className="uil uil-times nav__close"
+            class="uil uil-times nav__close"
             onClick={() => setShowMenu(!toggle)}
           ></i>
         </div>
         <div className="nav__toggle" onClick={() => setShowMenu(!toggle)}>
-          <i className="uil uil-apps "></i>
+          <i class="uil uil-apps "></i>
         </div>
       </nav>
     </header>

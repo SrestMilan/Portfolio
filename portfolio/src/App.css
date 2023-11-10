@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /* variable in css*/
 :root {
-  --header-height: 3rem;
+  --header-height: 4rem;
 
   /* code using HSL(Hue,Saturation,Lightness)*/
   --hue: 0;
@@ -44,7 +44,7 @@
   /* z index*/
   --z-tooltip: 10;
   --z-fixed: 100;
-  --z-modal: 100;
+  --z-modal: 1000;
 }
 /* responsive typography*/
 @media screen and(max-width:992px) {
@@ -74,8 +74,8 @@ body,
 button,
 input,
 textarea {
-  font-size: var(--body-font);
-  font-family: var(--normal-font-size);
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
 }
 
 body {
@@ -113,19 +113,19 @@ img {
   padding: 6rem 0 2rem;
 }
 
-.section_title {
+.section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section_subtitle {
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
 }
 
-.section_title,
-.section_subtitle {
+.section__title,
+.section__subtitle {
   text-align: center;
 }
 
